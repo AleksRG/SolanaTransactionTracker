@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Carousel() {
-  const items = ["Get", "Your", "Last", "100", "SOL", "Transaction"];
+  const items = ["Get", "Your", "Last", "100", "SOL", "Transactions"];
   const [activeIndex, setActiveIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,7 +15,7 @@ function Carousel() {
 
   return (
     <div className="flex justify-center items-center h-52 text-zinc-400 md:my-14">
-      <div className="relative h-full flex items-center justify-center ">
+      <div className="relative h-full flex items-center justify-center">
         {items.map((item, index) => (
           <h2
             key={item}
