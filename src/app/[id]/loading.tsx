@@ -54,7 +54,7 @@ function loading() {
             />{" "}
           </div>
 
-          <div className="flex justify-between items-center ">
+          <div className="flex justify-between items-center">
             <div className="flex items-center text-sm gap-2">
               <Image
                 src="https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
@@ -69,7 +69,7 @@ function loading() {
                 <span
                   className="bg-zinc-700/40 inline-block h-2 rounded-full animate-pulse w-24"
                   style={{
-                    animationDelay: `${1 * 0.05}s`,
+                    animationDelay: `${i * 0.05}s`,
                     animationDuration: "1s",
                   }}
                 />
@@ -77,7 +77,7 @@ function loading() {
                 <span
                   className="bg-zinc-700/40 inline-block h-2 rounded-full animate-pulse w-32"
                   style={{
-                    animationDelay: `${1 * 0.05}s`,
+                    animationDelay: `${i * 0.05}s`,
                     animationDuration: "1s",
                   }}
                 />
@@ -85,9 +85,9 @@ function loading() {
             </div>
 
             <span
-              className="bg-lime-800/50  inline-block h-3 rounded-full animate-pulse w-24"
+              className="bg-zinc-700/40 inline-block h-3 rounded-full animate-pulse w-24"
               style={{
-                animationDelay: `${1 * 0.05}s`,
+                animationDelay: `${i * 0.05}s`,
                 animationDuration: "1s",
               }}
             />
