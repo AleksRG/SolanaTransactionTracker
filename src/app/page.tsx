@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4 h-screen w-screen p-2 justify-center items-center bg-black font-mono">
       <Carousel />
-      <div className="rounded-xl leading-none flex items-center w-full justify-center border border-zinc-900 bg-black/20 hover:bg-black/50 duration-700 sm:w-60 hover:border-zinc-900/50 hover:text-zinc-300">
+      <div className="rounded-xl leading-none flex items-center w-full justify-center border border-zinc-900 bg-black/20 hover:bg-black/50 duration-700 sm:w-60 hover:border-zinc-900/50 hover:text-zinc-300 h-9">
         <WalletMultiButtonDynamic
           style={{
             height: 35,
