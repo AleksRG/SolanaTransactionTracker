@@ -19,7 +19,7 @@ function Carousel() {
         {items.map((item, index) => (
           <h2
             key={item}
-            className={`absolute h-24 font-display text-6xl cursor-default text-edge-outline md:text-8xl whitespace-nowrap duration-1000 font-semibold tracking-tight text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 via-zinc-100/80 to-white ${
+            className={`absolute h-24 font-display text-5xl cursor-default text-edge-outline md:text-8xl whitespace-nowrap duration-1000 font-semibold tracking-tight text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 via-zinc-100/80 to-white ${
               index !== activeIndex
                 ? "translate-y-full opacity-0"
                 : "translate-y-0 opacity-100 transition-all"
